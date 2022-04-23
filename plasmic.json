@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -147,6 +147,46 @@
           "id": "zxLTQf_rHmk",
           "name": "FiactivityIcon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Fiactivity.tsx"
+        },
+        {
+          "id": "7bpK_BeXx8",
+          "name": "Vector337Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector337.tsx"
+        },
+        {
+          "id": "RmumT6xT2W",
+          "name": "Vector338Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector338.tsx"
+        },
+        {
+          "id": "egR87Hy2MRG",
+          "name": "Vector10Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector10.tsx"
+        },
+        {
+          "id": "0XBUyzmHQ3o",
+          "name": "Polygon1Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Polygon1.tsx"
+        },
+        {
+          "id": "V6jam8rM5pz",
+          "name": "_62Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon___62.tsx"
+        },
+        {
+          "id": "ZBiKxbotKEp",
+          "name": "Ellipse40Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Ellipse40.tsx"
+        },
+        {
+          "id": "nVdka4vGrP4",
+          "name": "_33Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon___33.tsx"
+        },
+        {
+          "id": "nBTrUwLUlRD",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector3.tsx"
         }
       ],
       "images": [
@@ -179,6 +219,16 @@
           "id": "Z0iRaVV0E0C",
           "name": "btn_play",
           "filePath": "../public/plasmic/blank_project/images/btnPlay.svg"
+        },
+        {
+          "id": "17Tke5r7_8",
+          "name": "Growthly 1",
+          "filePath": "../public/plasmic/blank_project/images/growthly1.png"
+        },
+        {
+          "id": "LRsam8HJ8p8",
+          "name": "Group 87",
+          "filePath": "../public/plasmic/blank_project/images/group87.svg"
         }
       ],
       "indirect": false,
