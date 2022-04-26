@@ -40,14 +40,9 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: 46HRUmKiZfZWKqbQxfEozQ/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: Rna8FYquKn5x/css
 
-import Vector337Icon from "./icons/PlasmicIcon__Vector337"; // plasmic-import: 7bpK_BeXx8/icon
-import Vector338Icon from "./icons/PlasmicIcon__Vector338"; // plasmic-import: RmumT6xT2W/icon
-import Vector10Icon from "./icons/PlasmicIcon__Vector10"; // plasmic-import: egR87Hy2MRG/icon
-import Polygon1Icon from "./icons/PlasmicIcon__Polygon1"; // plasmic-import: 0XBUyzmHQ3o/icon
-import _62Icon from "./icons/PlasmicIcon___62"; // plasmic-import: V6jam8rM5pz/icon
-import Ellipse40Icon from "./icons/PlasmicIcon__Ellipse40"; // plasmic-import: ZBiKxbotKEp/icon
-import _33Icon from "./icons/PlasmicIcon___33"; // plasmic-import: nVdka4vGrP4/icon
-import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: nBTrUwLUlRD/icon
+import Xmlid4StrokeIcon from "../jd_websi/icons/PlasmicIcon__Xmlid4Stroke"; // plasmic-import: _uGP_2Uqg5/icon
+import Group1Icon from "../jd_websi/icons/PlasmicIcon__Group1"; // plasmic-import: 7HhSlfyiyN/icon
+import Rectangle1Icon from "../jd_websi/icons/PlasmicIcon__Rectangle1"; // plasmic-import: wmZKUJnvSn/icon
 
 export type PlasmicHomepage__VariantMembers = {};
 
@@ -61,101 +56,17 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: p.Flex<"div">;
-  frame117?: p.Flex<"div">;
-  group1000000796?: p.Flex<"div">;
-  group1000000795?: p.Flex<"div">;
-  group149?: p.Flex<"div">;
-  group1000000802?: p.Flex<"div">;
-  rectangle78?: p.Flex<"div">;
-  group148?: p.Flex<"div">;
-  group147?: p.Flex<"div">;
-  group146?: p.Flex<"div">;
-  group145?: p.Flex<"div">;
-  group144?: p.Flex<"div">;
-  rectangle79?: p.Flex<"div">;
-  group143?: p.Flex<"div">;
-  rectangle80?: p.Flex<"div">;
-  group142?: p.Flex<"div">;
-  rectangle81?: p.Flex<"div">;
-  group150?: p.Flex<"div">;
-  rectangle82?: p.Flex<"div">;
-  group141?: p.Flex<"div">;
-  rectangle83?: p.Flex<"div">;
-  group140?: p.Flex<"div">;
-  rectangle84?: p.Flex<"div">;
-  group139?: p.Flex<"div">;
-  rectangle85?: p.Flex<"div">;
-  group138?: p.Flex<"div">;
-  rectangle86?: p.Flex<"div">;
-  group257?: p.Flex<"div">;
-  group253?: p.Flex<"div">;
-  rectangle126?: p.Flex<"div">;
-  group249?: p.Flex<"div">;
-  rectangle127?: p.Flex<"div">;
-  rectangle128?: p.Flex<"div">;
-  group252?: p.Flex<"div">;
-  group251?: p.Flex<"div">;
-  group250?: p.Flex<"div">;
-  group254?: p.Flex<"div">;
-  rectangle129?: p.Flex<"div">;
-  group255?: p.Flex<"div">;
-  rectangle130?: p.Flex<"div">;
-  rectangle131?: p.Flex<"div">;
-  group256?: p.Flex<"div">;
-  group258?: p.Flex<"div">;
-  group259?: p.Flex<"div">;
-  group1000000794?: p.Flex<"div">;
-  illustration?: p.Flex<"div">;
-  rectangle37?: p.Flex<"div">;
-  rectangle44?: p.Flex<"div">;
-  rectangle41?: p.Flex<"div">;
-  img?: p.Flex<typeof p.PlasmicImg>;
-  group83?: p.Flex<"div">;
-  group82?: p.Flex<"div">;
-  rectangle45?: p.Flex<"div">;
-  group103?: p.Flex<"div">;
-  rectangle49?: p.Flex<"div">;
-  group90?: p.Flex<"div">;
-  group71?: p.Flex<"div">;
-  rectangle46?: p.Flex<"div">;
-  group102?: p.Flex<"div">;
-  group100?: p.Flex<"div">;
-  rectangle39?: p.Flex<"div">;
-  rectangle40?: p.Flex<"div">;
-  group91?: p.Flex<"div">;
-  group89?: p.Flex<"div">;
-  rectangle47?: p.Flex<"div">;
-  group72?: p.Flex<"div">;
-  rectangle48?: p.Flex<"div">;
-  group101?: p.Flex<"div">;
-  rectangle42?: p.Flex<"div">;
-  rectangle43?: p.Flex<"div">;
-  group92?: p.Flex<"div">;
-  group93?: p.Flex<"div">;
-  rectangle50?: p.Flex<"div">;
-  group73?: p.Flex<"div">;
-  rectangle51?: p.Flex<"div">;
-  group1000000793?: p.Flex<"div">;
-  group167?: p.Flex<"div">;
-  group165?: p.Flex<"div">;
-  rectangle92?: p.Flex<"div">;
-  group164?: p.Flex<"div">;
-  rectangle93?: p.Flex<"div">;
-  group166?: p.Flex<"div">;
-  rectangle94?: p.Flex<"div">;
-  group168?: p.Flex<"div">;
-  rectangle95?: p.Flex<"div">;
-  growthly1?: p.Flex<"div">;
-  navigation?: p.Flex<"div">;
-  group18?: p.Flex<"div">;
-  group136?: p.Flex<"div">;
-  navItem?: p.Flex<"div">;
-  navItem2?: p.Flex<"div">;
-  navItem3?: p.Flex<"div">;
-  navItem4?: p.Flex<"div">;
-  group17?: p.Flex<"div">;
-  navItem5?: p.Flex<"div">;
-  rectangle17?: p.Flex<"div">;
+  figmaPaste?: p.Flex<"div">;
+  stilu10Pt100?: p.Flex<"div">;
+  group2?: p.Flex<"div">;
+  group4?: p.Flex<"div">;
+  group5?: p.Flex<"div">;
+  _?: p.Flex<"div">;
+  group6?: p.Flex<"div">;
+  group7?: p.Flex<"div">;
+  group8?: p.Flex<"div">;
+  group9?: p.Flex<"div">;
+  rectangle7?: p.Flex<"div">;
 };
 
 export interface DefaultHomepageProps {}
@@ -181,1232 +92,208 @@ function PlasmicHomepage__RenderFunc(props: {
       `}</style>
 
       <div className={projectcss.plasmic_page_wrapper}>
-        <p.Stack
-          as={"div"}
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
-          data-plasmic-root={true}
-          data-plasmic-for-node={forNode}
-          hasGap={true}
-          className={classNames(
-            projectcss.all,
-            projectcss.root_reset,
-            projectcss.plasmic_default_styles,
-            projectcss.plasmic_mixins,
-            sty.root
-          )}
-        >
-          <div
-            data-plasmic-name={"frame117"}
-            data-plasmic-override={overrides.frame117}
-            className={classNames(projectcss.all, sty.frame117)}
+        {true ? (
+          <p.Stack
+            as={"div"}
+            data-plasmic-name={"root"}
+            data-plasmic-override={overrides.root}
+            data-plasmic-root={true}
+            data-plasmic-for-node={forNode}
+            hasGap={true}
+            className={classNames(
+              projectcss.all,
+              projectcss.root_reset,
+              projectcss.plasmic_default_styles,
+              projectcss.plasmic_mixins,
+              projectcss.plasmic_tokens,
+              sty.root
+            )}
           >
-            <div
-              data-plasmic-name={"group1000000796"}
-              data-plasmic-override={overrides.group1000000796}
-              className={classNames(projectcss.all, sty.group1000000796)}
-            >
+            {true ? (
               <div
-                data-plasmic-name={"group1000000795"}
-                data-plasmic-override={overrides.group1000000795}
-                className={classNames(projectcss.all, sty.group1000000795)}
+                data-plasmic-name={"figmaPaste"}
+                data-plasmic-override={overrides.figmaPaste}
+                className={classNames(projectcss.all, sty.figmaPaste)}
               >
                 <div
-                  data-plasmic-name={"group149"}
-                  data-plasmic-override={overrides.group149}
-                  className={classNames(projectcss.all, sty.group149)}
+                  data-plasmic-name={"stilu10Pt100"}
+                  data-plasmic-override={overrides.stilu10Pt100}
+                  className={classNames(projectcss.all, sty.stilu10Pt100)}
                 >
                   <div
-                    data-plasmic-name={"group1000000802"}
-                    data-plasmic-override={overrides.group1000000802}
-                    className={classNames(projectcss.all, sty.group1000000802)}
+                    data-plasmic-name={"group2"}
+                    data-plasmic-override={overrides.group2}
+                    className={classNames(projectcss.all, sty.group2)}
                   >
-                    <div
-                      data-plasmic-name={"rectangle78"}
-                      data-plasmic-override={overrides.rectangle78}
-                      className={classNames(projectcss.all, sty.rectangle78)}
+                    <Xmlid4StrokeIcon
+                      className={classNames(projectcss.all, sty.svg__aRmVn)}
+                      role={"img"}
                     />
 
-                    <div
-                      data-plasmic-name={"group148"}
-                      data-plasmic-override={overrides.group148}
-                      className={classNames(projectcss.all, sty.group148)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__k1Q3T
-                        )}
-                      >
-                        {"Total Balance"}
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group147"}
-                        data-plasmic-override={overrides.group147}
-                        className={classNames(projectcss.all, sty.group147)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__fdjDm
-                          )}
-                        >
-                          {"$4,200"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__w4M8N
-                          )}
-                        >
-                          {"+14%"}
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group146"}
-                      data-plasmic-override={overrides.group146}
-                      className={classNames(projectcss.all, sty.group146)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__xCxOw
-                        )}
-                      >
-                        {"10k"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__mGKm
-                        )}
-                      >
-                        {"4k"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__jmJ1A
-                        )}
-                      >
-                        {"2k"}
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__pvSiR
-                        )}
-                      >
-                        {"0"}
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group145"}
-                      data-plasmic-override={overrides.group145}
-                      className={classNames(projectcss.all, sty.group145)}
-                    >
-                      <div
-                        data-plasmic-name={"group144"}
-                        data-plasmic-override={overrides.group144}
-                        className={classNames(projectcss.all, sty.group144)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__n5P
-                          )}
-                        >
-                          {"S"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle79"}
-                          data-plasmic-override={overrides.rectangle79}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle79
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group143"}
-                        data-plasmic-override={overrides.group143}
-                        className={classNames(projectcss.all, sty.group143)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__jeM9C
-                          )}
-                        >
-                          {"M"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle80"}
-                          data-plasmic-override={overrides.rectangle80}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle80
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group142"}
-                        data-plasmic-override={overrides.group142}
-                        className={classNames(projectcss.all, sty.group142)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__xRcAj
-                          )}
-                        >
-                          {"T"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle81"}
-                          data-plasmic-override={overrides.rectangle81}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle81
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group150"}
-                        data-plasmic-override={overrides.group150}
-                        className={classNames(projectcss.all, sty.group150)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__eb71N
-                          )}
-                        >
-                          {"W"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle82"}
-                          data-plasmic-override={overrides.rectangle82}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle82
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group141"}
-                        data-plasmic-override={overrides.group141}
-                        className={classNames(projectcss.all, sty.group141)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__sbUGo
-                          )}
-                        >
-                          {"T"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle83"}
-                          data-plasmic-override={overrides.rectangle83}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle83
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group140"}
-                        data-plasmic-override={overrides.group140}
-                        className={classNames(projectcss.all, sty.group140)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__os0Cp
-                          )}
-                        >
-                          {"F"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle84"}
-                          data-plasmic-override={overrides.rectangle84}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle84
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group139"}
-                        data-plasmic-override={overrides.group139}
-                        className={classNames(projectcss.all, sty.group139)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__gayQt
-                          )}
-                        >
-                          {"S"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle85"}
-                          data-plasmic-override={overrides.rectangle85}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle85
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group138"}
-                        data-plasmic-override={overrides.group138}
-                        className={classNames(projectcss.all, sty.group138)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__zoN17
-                          )}
-                        >
-                          {"S"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"rectangle86"}
-                          data-plasmic-override={overrides.rectangle86}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle86
-                          )}
-                        />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    data-plasmic-name={"group257"}
-                    data-plasmic-override={overrides.group257}
-                    className={classNames(projectcss.all, sty.group257)}
-                  >
-                    <div
-                      data-plasmic-name={"group253"}
-                      data-plasmic-override={overrides.group253}
-                      className={classNames(projectcss.all, sty.group253)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle126"}
-                        data-plasmic-override={overrides.rectangle126}
-                        className={classNames(projectcss.all, sty.rectangle126)}
-                      />
-
-                      <div
-                        data-plasmic-name={"group249"}
-                        data-plasmic-override={overrides.group249}
-                        className={classNames(projectcss.all, sty.group249)}
-                      >
-                        <div
-                          data-plasmic-name={"rectangle127"}
-                          data-plasmic-override={overrides.rectangle127}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle127
-                          )}
-                        />
-
-                        <div
-                          data-plasmic-name={"rectangle128"}
-                          data-plasmic-override={overrides.rectangle128}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle128
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group252"}
-                        data-plasmic-override={overrides.group252}
-                        className={classNames(projectcss.all, sty.group252)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__wAoqZ
-                          )}
-                        >
-                          {"Followers"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group251"}
-                          data-plasmic-override={overrides.group251}
-                          className={classNames(projectcss.all, sty.group251)}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__bJh7I
-                            )}
-                          >
-                            {"9,350"}
-                          </div>
-
-                          <div
-                            data-plasmic-name={"group250"}
-                            data-plasmic-override={overrides.group250}
-                            className={classNames(projectcss.all, sty.group250)}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__zi6Of
-                              )}
-                            >
-                              {"8.46%"}
-                            </div>
-
-                            <Vector337Icon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg___5MJP
-                              )}
-                              role={"img"}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group254"}
-                      data-plasmic-override={overrides.group254}
-                      className={classNames(projectcss.all, sty.group254)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle129"}
-                        data-plasmic-override={overrides.rectangle129}
-                        className={classNames(projectcss.all, sty.rectangle129)}
-                      />
-
-                      <div
-                        data-plasmic-name={"group255"}
-                        data-plasmic-override={overrides.group255}
-                        className={classNames(projectcss.all, sty.group255)}
-                      >
-                        <div
-                          data-plasmic-name={"rectangle130"}
-                          data-plasmic-override={overrides.rectangle130}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle130
-                          )}
-                        />
-
-                        <div
-                          data-plasmic-name={"rectangle131"}
-                          data-plasmic-override={overrides.rectangle131}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle131
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group256"}
-                        data-plasmic-override={overrides.group256}
-                        className={classNames(projectcss.all, sty.group256)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__uJbkl
-                          )}
-                        >
-                          {"Likes"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group258"}
-                          data-plasmic-override={overrides.group258}
-                          className={classNames(projectcss.all, sty.group258)}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___2Uui
-                            )}
-                          >
-                            {"140,948"}
-                          </div>
-
-                          <div
-                            data-plasmic-name={"group259"}
-                            data-plasmic-override={overrides.group259}
-                            className={classNames(projectcss.all, sty.group259)}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text___5Ku9S
-                              )}
-                            >
-                              {"11.28%"}
-                            </div>
-
-                            <Vector338Icon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__wI1Rg
-                              )}
-                              role={"img"}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <Group1Icon
+                      className={classNames(projectcss.all, sty.svg__uAtHo)}
+                      role={"img"}
+                    />
                   </div>
                 </div>
 
                 <div
-                  data-plasmic-name={"group1000000794"}
-                  data-plasmic-override={overrides.group1000000794}
-                  className={classNames(projectcss.all, sty.group1000000794)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__uqu7H
+                  )}
+                >
+                  {"️"}
+                </div>
+
+                <div
+                  data-plasmic-name={"group4"}
+                  data-plasmic-override={overrides.group4}
+                  className={classNames(projectcss.all, sty.group4)}
                 >
                   <div
-                    data-plasmic-name={"illustration"}
-                    data-plasmic-override={overrides.illustration}
-                    className={classNames(projectcss.all, sty.illustration)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oJKkW
+                    )}
                   >
-                    <div
-                      data-plasmic-name={"rectangle37"}
-                      data-plasmic-override={overrides.rectangle37}
-                      className={classNames(projectcss.all, sty.rectangle37)}
-                    />
-
-                    <div
-                      data-plasmic-name={"rectangle44"}
-                      data-plasmic-override={overrides.rectangle44}
-                      className={classNames(projectcss.all, sty.rectangle44)}
-                    />
-
-                    <div
-                      data-plasmic-name={"rectangle41"}
-                      data-plasmic-override={overrides.rectangle41}
-                      className={classNames(projectcss.all, sty.rectangle41)}
-                    />
-
-                    <p.PlasmicImg
-                      data-plasmic-name={"img"}
-                      data-plasmic-override={overrides.img}
-                      alt={""}
-                      className={classNames(sty.img)}
-                      displayHeight={"220.857px" as const}
-                      displayMaxHeight={"none" as const}
-                      displayMaxWidth={"100%" as const}
-                      displayMinHeight={"0" as const}
-                      displayMinWidth={"0" as const}
-                      displayWidth={"306.167px" as const}
-                      loading={"lazy" as const}
-                      src={{
-                        src: "/plasmic/blank_project/images/group87.svg",
-                        fullWidth: 306.167,
-                        fullHeight: 220.857,
-                        aspectRatio: 1.38914
-                      }}
-                    />
-
-                    <div
-                      data-plasmic-name={"group83"}
-                      data-plasmic-override={overrides.group83}
-                      className={classNames(projectcss.all, sty.group83)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__mTxf5
-                        )}
-                      >
-                        {"Recent Product"}
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group82"}
-                        data-plasmic-override={overrides.group82}
-                        className={classNames(projectcss.all, sty.group82)}
-                      >
-                        <div
-                          data-plasmic-name={"rectangle45"}
-                          data-plasmic-override={overrides.rectangle45}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle45
-                          )}
-                        />
-
-                        <Vector10Icon
-                          className={classNames(projectcss.all, sty.svg__dSuh6)}
-                          role={"img"}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__vrWm7
-                          )}
-                        >
-                          {"Live Preview"}
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group103"}
-                      data-plasmic-override={overrides.group103}
-                      className={classNames(projectcss.all, sty.group103)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle49"}
-                        data-plasmic-override={overrides.rectangle49}
-                        className={classNames(projectcss.all, sty.rectangle49)}
-                      />
-
-                      <div
-                        data-plasmic-name={"group90"}
-                        data-plasmic-override={overrides.group90}
-                        className={classNames(projectcss.all, sty.group90)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__s93E
-                          )}
-                        >
-                          {"122,637"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__k8NiF
-                          )}
-                        >
-                          {"March 24, 02:00PM"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group71"}
-                          data-plasmic-override={overrides.group71}
-                          className={classNames(projectcss.all, sty.group71)}
-                        >
-                          <div
-                            data-plasmic-name={"rectangle46"}
-                            data-plasmic-override={overrides.rectangle46}
-                            className={classNames(
-                              projectcss.all,
-                              sty.rectangle46
-                            )}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__jEjPm
-                            )}
-                          >
-                            {"21.4%"}
-                          </div>
-
-                          <Polygon1Icon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__bAdhn
-                            )}
-                            role={"img"}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div
-                    data-plasmic-name={"group102"}
-                    data-plasmic-override={overrides.group102}
-                    className={classNames(projectcss.all, sty.group102)}
-                  >
-                    <div
-                      data-plasmic-name={"group100"}
-                      data-plasmic-override={overrides.group100}
-                      className={classNames(projectcss.all, sty.group100)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle39"}
-                        data-plasmic-override={overrides.rectangle39}
-                        className={classNames(projectcss.all, sty.rectangle39)}
-                      />
-
-                      <div
-                        data-plasmic-name={"rectangle40"}
-                        data-plasmic-override={overrides.rectangle40}
-                        className={classNames(projectcss.all, sty.rectangle40)}
-                      />
-
-                      <div
-                        data-plasmic-name={"group91"}
-                        data-plasmic-override={overrides.group91}
-                        className={classNames(projectcss.all, sty.group91)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__oq75K
-                          )}
-                        >
-                          {"122,637"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___8XDz
-                          )}
-                        >
-                          {"From last 7 days"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group89"}
-                          data-plasmic-override={overrides.group89}
-                          className={classNames(projectcss.all, sty.group89)}
-                        >
-                          <div
-                            data-plasmic-name={"rectangle47"}
-                            data-plasmic-override={overrides.rectangle47}
-                            className={classNames(
-                              projectcss.all,
-                              sty.rectangle47
-                            )}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text___6OzPu
-                            )}
-                          >
-                            {"Reach"}
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group72"}
-                          data-plasmic-override={overrides.group72}
-                          className={classNames(projectcss.all, sty.group72)}
-                        >
-                          <div
-                            data-plasmic-name={"rectangle48"}
-                            data-plasmic-override={overrides.rectangle48}
-                            className={classNames(
-                              projectcss.all,
-                              sty.rectangle48
-                            )}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__hRus
-                            )}
-                          >
-                            {"21.4%"}
-                          </div>
-
-                          <Polygon1Icon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__bUvbd
-                            )}
-                            role={"img"}
-                          />
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group101"}
-                      data-plasmic-override={overrides.group101}
-                      className={classNames(projectcss.all, sty.group101)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle42"}
-                        data-plasmic-override={overrides.rectangle42}
-                        className={classNames(projectcss.all, sty.rectangle42)}
-                      />
-
-                      <div
-                        data-plasmic-name={"rectangle43"}
-                        data-plasmic-override={overrides.rectangle43}
-                        className={classNames(projectcss.all, sty.rectangle43)}
-                      />
-
-                      <div
-                        data-plasmic-name={"group92"}
-                        data-plasmic-override={overrides.group92}
-                        className={classNames(projectcss.all, sty.group92)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__mYIx2
-                          )}
-                        >
-                          {"122,637"}
-                        </div>
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__ww8Mg
-                          )}
-                        >
-                          {"From last 7 days"}
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group93"}
-                          data-plasmic-override={overrides.group93}
-                          className={classNames(projectcss.all, sty.group93)}
-                        >
-                          <div
-                            data-plasmic-name={"rectangle50"}
-                            data-plasmic-override={overrides.rectangle50}
-                            className={classNames(
-                              projectcss.all,
-                              sty.rectangle50
-                            )}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__kR4W7
-                            )}
-                          >
-                            {"Reach"}
-                          </div>
-                        </div>
-
-                        <div
-                          data-plasmic-name={"group73"}
-                          data-plasmic-override={overrides.group73}
-                          className={classNames(projectcss.all, sty.group73)}
-                        >
-                          <div
-                            data-plasmic-name={"rectangle51"}
-                            data-plasmic-override={overrides.rectangle51}
-                            className={classNames(
-                              projectcss.all,
-                              sty.rectangle51
-                            )}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__muhUd
-                            )}
-                          >
-                            {"21.4%"}
-                          </div>
-
-                          <Polygon1Icon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__iDzb
-                            )}
-                            role={"img"}
-                          />
-                        </div>
-                      </div>
-                    </div>
+                    {
+                      "GTM Tags, Marketing Calculators \nand Javascript Stuff to Play With."
+                    }
                   </div>
                 </div>
 
                 <div
-                  data-plasmic-name={"group1000000793"}
-                  data-plasmic-override={overrides.group1000000793}
-                  className={classNames(projectcss.all, sty.group1000000793)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___6FnEz
+                  )}
                 >
-                  <_62Icon
-                    className={classNames(projectcss.all, sty.svg__jvOSi)}
+                  {"Made With ❤ in Athens"}
+                </div>
+
+                <div
+                  data-plasmic-name={"group5"}
+                  data-plasmic-override={overrides.group5}
+                  className={classNames(projectcss.all, sty.group5)}
+                >
+                  <Rectangle1Icon
+                    className={classNames(projectcss.all, sty.svg__prMf5)}
                     role={"img"}
                   />
 
                   <div
-                    data-plasmic-name={"group167"}
-                    data-plasmic-override={overrides.group167}
-                    className={classNames(projectcss.all, sty.group167)}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___9QKax
+                    )}
                   >
-                    <div
-                      data-plasmic-name={"group165"}
-                      data-plasmic-override={overrides.group165}
-                      className={classNames(projectcss.all, sty.group165)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle92"}
-                        data-plasmic-override={overrides.rectangle92}
-                        className={classNames(projectcss.all, sty.rectangle92)}
-                      />
-
-                      <Ellipse40Icon
-                        className={classNames(projectcss.all, sty.svg__ygwM2)}
-                        role={"img"}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__jzShR
-                        )}
-                      >
-                        {"Received from Michael V"}
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group164"}
-                        data-plasmic-override={overrides.group164}
-                        className={classNames(projectcss.all, sty.group164)}
-                      >
-                        <div
-                          data-plasmic-name={"rectangle93"}
-                          data-plasmic-override={overrides.rectangle93}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle93
-                          )}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___682VY
-                          )}
-                        >
-                          {"+ $28,900"}
-                        </div>
-                      </div>
-                    </div>
-
-                    <div
-                      data-plasmic-name={"group166"}
-                      data-plasmic-override={overrides.group166}
-                      className={classNames(projectcss.all, sty.group166)}
-                    >
-                      <div
-                        data-plasmic-name={"rectangle94"}
-                        data-plasmic-override={overrides.rectangle94}
-                        className={classNames(projectcss.all, sty.rectangle94)}
-                      />
-
-                      <Ellipse40Icon
-                        className={classNames(projectcss.all, sty.svg___8ROfK)}
-                        role={"img"}
-                      />
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text___5Qogk
-                        )}
-                      >
-                        {"Received from Michael V"}
-                      </div>
-
-                      <div
-                        data-plasmic-name={"group168"}
-                        data-plasmic-override={overrides.group168}
-                        className={classNames(projectcss.all, sty.group168)}
-                      >
-                        <div
-                          data-plasmic-name={"rectangle95"}
-                          data-plasmic-override={overrides.rectangle95}
-                          className={classNames(
-                            projectcss.all,
-                            sty.rectangle95
-                          )}
-                        />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___8Lp74
-                          )}
-                        >
-                          {"+ $28,900"}
-                        </div>
-                      </div>
-                    </div>
+                    {"View Services"}
                   </div>
                 </div>
-              </div>
 
-              <_33Icon
-                className={classNames(projectcss.all, sty.svg__r6Hh9)}
-                role={"img"}
-              />
-            </div>
-
-            <div
-              data-plasmic-name={"growthly1"}
-              data-plasmic-override={overrides.growthly1}
-              className={classNames(projectcss.all, sty.growthly1)}
-            />
-
-            <div
-              data-plasmic-name={"navigation"}
-              data-plasmic-override={overrides.navigation}
-              className={classNames(projectcss.all, sty.navigation)}
-            >
-              <div
-                data-plasmic-name={"group18"}
-                data-plasmic-override={overrides.group18}
-                className={classNames(projectcss.all, sty.group18)}
-              >
                 <div
-                  data-plasmic-name={"group136"}
-                  data-plasmic-override={overrides.group136}
-                  className={classNames(projectcss.all, sty.group136)}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__uDhC7
+                  )}
                 >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"navItem"}
-                    data-plasmic-override={overrides.navItem}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.navItem)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__l9QVy
-                      )}
-                    >
-                      {"Product"}
-                    </div>
-
-                    <Vector3Icon
-                      className={classNames(projectcss.all, sty.svg__qHyCg)}
-                      role={"img"}
-                    />
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"navItem2"}
-                    data-plasmic-override={overrides.navItem2}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.navItem2)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__aImmG
-                      )}
-                    >
-                      {"Template"}
-                    </div>
-
-                    <Vector3Icon
-                      className={classNames(projectcss.all, sty.svg___52BhL)}
-                      role={"img"}
-                    />
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"navItem3"}
-                    data-plasmic-override={overrides.navItem3}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.navItem3)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__nbKks
-                      )}
-                    >
-                      {"Blog"}
-                    </div>
-                  </p.Stack>
-
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"navItem4"}
-                    data-plasmic-override={overrides.navItem4}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.navItem4)}
-                  >
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__fakjU
-                      )}
-                    >
-                      {"Pricing"}
-                    </div>
-                  </p.Stack>
+                  {"Be Quick & Deploy"}
                 </div>
 
                 <div
-                  data-plasmic-name={"group17"}
-                  data-plasmic-override={overrides.group17}
-                  className={classNames(projectcss.all, sty.group17)}
+                  data-plasmic-name={"_"}
+                  data-plasmic-override={overrides._}
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty._
+                  )}
                 >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"navItem5"}
-                    data-plasmic-override={overrides.navItem5}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.navItem5)}
+                  {" ✌🏻"}
+                </div>
+
+                <div
+                  data-plasmic-name={"group6"}
+                  data-plasmic-override={overrides.group6}
+                  className={classNames(projectcss.all, sty.group6)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__vcGgQ
+                    )}
+                  >
+                    {"About"}
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"group7"}
+                  data-plasmic-override={overrides.group7}
+                  className={classNames(projectcss.all, sty.group7)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fdFDy
+                    )}
+                  >
+                    {"Tools & Calculators"}
+                  </div>
+                </div>
+
+                <div
+                  data-plasmic-name={"group8"}
+                  data-plasmic-override={overrides.group8}
+                  className={classNames(projectcss.all, sty.group8)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__zqr0N
+                    )}
+                  >
+                    {"Tracking Library"}
+                  </div>
+                </div>
+
+                {true ? (
+                  <div
+                    data-plasmic-name={"group9"}
+                    data-plasmic-override={overrides.group9}
+                    className={classNames(projectcss.all, sty.group9)}
                   >
                     <div
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__klGwe
+                        sty.text__iLj3U
                       )}
                     >
-                      {"Sign In"}
+                      {"Services"}
                     </div>
-                  </p.Stack>
-                </div>
+                  </div>
+                ) : null}
+                {true ? (
+                  <div
+                    data-plasmic-name={"rectangle7"}
+                    data-plasmic-override={overrides.rectangle7}
+                    className={classNames(projectcss.all, sty.rectangle7)}
+                  />
+                ) : null}
               </div>
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__lyG2A
-              )}
-            >
-              {"Tracking & Funnel Visualization"}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__fLq7H
-              )}
-            >
-              {
-                "Get A Birdeye view of your Marketing, Map Funnels and Categorize Visitors"
-              }
-            </div>
-
-            <div
-              data-plasmic-name={"rectangle17"}
-              data-plasmic-override={overrides.rectangle17}
-              className={classNames(projectcss.all, sty.rectangle17)}
-            />
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__qNeio
-              )}
-            >
-              {"Product Growth Solution in Single Platform."}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___75R5
-              )}
-            >
-              {"Get Started"}
-            </div>
-
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__htCch
-              )}
-            >
-              {"Growthly is free  for anyone to use"}
-            </div>
-          </div>
-        </p.Stack>
+            ) : null}
+          </p.Stack>
+        ) : null}
       </div>
     </React.Fragment>
   ) as React.ReactElement | null;
@@ -1415,801 +302,58 @@ function PlasmicHomepage__RenderFunc(props: {
 const PlasmicDescendants = {
   root: [
     "root",
-    "frame117",
-    "group1000000796",
-    "group1000000795",
-    "group149",
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86",
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259",
-    "group1000000794",
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46",
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51",
-    "group1000000793",
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95",
-    "growthly1",
-    "navigation",
-    "group18",
-    "group136",
-    "navItem",
-    "navItem2",
-    "navItem3",
-    "navItem4",
-    "group17",
-    "navItem5",
-    "rectangle17"
+    "figmaPaste",
+    "stilu10Pt100",
+    "group2",
+    "group4",
+    "group5",
+    "_",
+    "group6",
+    "group7",
+    "group8",
+    "group9",
+    "rectangle7"
   ],
-  frame117: [
-    "frame117",
-    "group1000000796",
-    "group1000000795",
-    "group149",
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86",
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259",
-    "group1000000794",
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46",
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51",
-    "group1000000793",
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95",
-    "growthly1",
-    "navigation",
-    "group18",
-    "group136",
-    "navItem",
-    "navItem2",
-    "navItem3",
-    "navItem4",
-    "group17",
-    "navItem5",
-    "rectangle17"
+  figmaPaste: [
+    "figmaPaste",
+    "stilu10Pt100",
+    "group2",
+    "group4",
+    "group5",
+    "_",
+    "group6",
+    "group7",
+    "group8",
+    "group9",
+    "rectangle7"
   ],
-  group1000000796: [
-    "group1000000796",
-    "group1000000795",
-    "group149",
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86",
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259",
-    "group1000000794",
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46",
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51",
-    "group1000000793",
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95"
-  ],
-  group1000000795: [
-    "group1000000795",
-    "group149",
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86",
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259",
-    "group1000000794",
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46",
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51",
-    "group1000000793",
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95"
-  ],
-  group149: [
-    "group149",
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86",
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259"
-  ],
-  group1000000802: [
-    "group1000000802",
-    "rectangle78",
-    "group148",
-    "group147",
-    "group146",
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86"
-  ],
-  rectangle78: ["rectangle78"],
-  group148: ["group148", "group147"],
-  group147: ["group147"],
-  group146: ["group146"],
-  group145: [
-    "group145",
-    "group144",
-    "rectangle79",
-    "group143",
-    "rectangle80",
-    "group142",
-    "rectangle81",
-    "group150",
-    "rectangle82",
-    "group141",
-    "rectangle83",
-    "group140",
-    "rectangle84",
-    "group139",
-    "rectangle85",
-    "group138",
-    "rectangle86"
-  ],
-  group144: ["group144", "rectangle79"],
-  rectangle79: ["rectangle79"],
-  group143: ["group143", "rectangle80"],
-  rectangle80: ["rectangle80"],
-  group142: ["group142", "rectangle81"],
-  rectangle81: ["rectangle81"],
-  group150: ["group150", "rectangle82"],
-  rectangle82: ["rectangle82"],
-  group141: ["group141", "rectangle83"],
-  rectangle83: ["rectangle83"],
-  group140: ["group140", "rectangle84"],
-  rectangle84: ["rectangle84"],
-  group139: ["group139", "rectangle85"],
-  rectangle85: ["rectangle85"],
-  group138: ["group138", "rectangle86"],
-  rectangle86: ["rectangle86"],
-  group257: [
-    "group257",
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250",
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259"
-  ],
-  group253: [
-    "group253",
-    "rectangle126",
-    "group249",
-    "rectangle127",
-    "rectangle128",
-    "group252",
-    "group251",
-    "group250"
-  ],
-  rectangle126: ["rectangle126"],
-  group249: ["group249", "rectangle127", "rectangle128"],
-  rectangle127: ["rectangle127"],
-  rectangle128: ["rectangle128"],
-  group252: ["group252", "group251", "group250"],
-  group251: ["group251", "group250"],
-  group250: ["group250"],
-  group254: [
-    "group254",
-    "rectangle129",
-    "group255",
-    "rectangle130",
-    "rectangle131",
-    "group256",
-    "group258",
-    "group259"
-  ],
-  rectangle129: ["rectangle129"],
-  group255: ["group255", "rectangle130", "rectangle131"],
-  rectangle130: ["rectangle130"],
-  rectangle131: ["rectangle131"],
-  group256: ["group256", "group258", "group259"],
-  group258: ["group258", "group259"],
-  group259: ["group259"],
-  group1000000794: [
-    "group1000000794",
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46",
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51"
-  ],
-  illustration: [
-    "illustration",
-    "rectangle37",
-    "rectangle44",
-    "rectangle41",
-    "img",
-    "group83",
-    "group82",
-    "rectangle45",
-    "group103",
-    "rectangle49",
-    "group90",
-    "group71",
-    "rectangle46"
-  ],
-  rectangle37: ["rectangle37"],
-  rectangle44: ["rectangle44"],
-  rectangle41: ["rectangle41"],
-  img: ["img"],
-  group83: ["group83", "group82", "rectangle45"],
-  group82: ["group82", "rectangle45"],
-  rectangle45: ["rectangle45"],
-  group103: ["group103", "rectangle49", "group90", "group71", "rectangle46"],
-  rectangle49: ["rectangle49"],
-  group90: ["group90", "group71", "rectangle46"],
-  group71: ["group71", "rectangle46"],
-  rectangle46: ["rectangle46"],
-  group102: [
-    "group102",
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48",
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51"
-  ],
-  group100: [
-    "group100",
-    "rectangle39",
-    "rectangle40",
-    "group91",
-    "group89",
-    "rectangle47",
-    "group72",
-    "rectangle48"
-  ],
-  rectangle39: ["rectangle39"],
-  rectangle40: ["rectangle40"],
-  group91: ["group91", "group89", "rectangle47", "group72", "rectangle48"],
-  group89: ["group89", "rectangle47"],
-  rectangle47: ["rectangle47"],
-  group72: ["group72", "rectangle48"],
-  rectangle48: ["rectangle48"],
-  group101: [
-    "group101",
-    "rectangle42",
-    "rectangle43",
-    "group92",
-    "group93",
-    "rectangle50",
-    "group73",
-    "rectangle51"
-  ],
-  rectangle42: ["rectangle42"],
-  rectangle43: ["rectangle43"],
-  group92: ["group92", "group93", "rectangle50", "group73", "rectangle51"],
-  group93: ["group93", "rectangle50"],
-  rectangle50: ["rectangle50"],
-  group73: ["group73", "rectangle51"],
-  rectangle51: ["rectangle51"],
-  group1000000793: [
-    "group1000000793",
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95"
-  ],
-  group167: [
-    "group167",
-    "group165",
-    "rectangle92",
-    "group164",
-    "rectangle93",
-    "group166",
-    "rectangle94",
-    "group168",
-    "rectangle95"
-  ],
-  group165: ["group165", "rectangle92", "group164", "rectangle93"],
-  rectangle92: ["rectangle92"],
-  group164: ["group164", "rectangle93"],
-  rectangle93: ["rectangle93"],
-  group166: ["group166", "rectangle94", "group168", "rectangle95"],
-  rectangle94: ["rectangle94"],
-  group168: ["group168", "rectangle95"],
-  rectangle95: ["rectangle95"],
-  growthly1: ["growthly1"],
-  navigation: [
-    "navigation",
-    "group18",
-    "group136",
-    "navItem",
-    "navItem2",
-    "navItem3",
-    "navItem4",
-    "group17",
-    "navItem5"
-  ],
-  group18: [
-    "group18",
-    "group136",
-    "navItem",
-    "navItem2",
-    "navItem3",
-    "navItem4",
-    "group17",
-    "navItem5"
-  ],
-  group136: ["group136", "navItem", "navItem2", "navItem3", "navItem4"],
-  navItem: ["navItem"],
-  navItem2: ["navItem2"],
-  navItem3: ["navItem3"],
-  navItem4: ["navItem4"],
-  group17: ["group17", "navItem5"],
-  navItem5: ["navItem5"],
-  rectangle17: ["rectangle17"]
+  stilu10Pt100: ["stilu10Pt100", "group2"],
+  group2: ["group2"],
+  group4: ["group4"],
+  group5: ["group5"],
+  _: ["_"],
+  group6: ["group6"],
+  group7: ["group7"],
+  group8: ["group8"],
+  group9: ["group9"],
+  rectangle7: ["rectangle7"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
-  frame117: "div";
-  group1000000796: "div";
-  group1000000795: "div";
-  group149: "div";
-  group1000000802: "div";
-  rectangle78: "div";
-  group148: "div";
-  group147: "div";
-  group146: "div";
-  group145: "div";
-  group144: "div";
-  rectangle79: "div";
-  group143: "div";
-  rectangle80: "div";
-  group142: "div";
-  rectangle81: "div";
-  group150: "div";
-  rectangle82: "div";
-  group141: "div";
-  rectangle83: "div";
-  group140: "div";
-  rectangle84: "div";
-  group139: "div";
-  rectangle85: "div";
-  group138: "div";
-  rectangle86: "div";
-  group257: "div";
-  group253: "div";
-  rectangle126: "div";
-  group249: "div";
-  rectangle127: "div";
-  rectangle128: "div";
-  group252: "div";
-  group251: "div";
-  group250: "div";
-  group254: "div";
-  rectangle129: "div";
-  group255: "div";
-  rectangle130: "div";
-  rectangle131: "div";
-  group256: "div";
-  group258: "div";
-  group259: "div";
-  group1000000794: "div";
-  illustration: "div";
-  rectangle37: "div";
-  rectangle44: "div";
-  rectangle41: "div";
-  img: typeof p.PlasmicImg;
-  group83: "div";
-  group82: "div";
-  rectangle45: "div";
-  group103: "div";
-  rectangle49: "div";
-  group90: "div";
-  group71: "div";
-  rectangle46: "div";
-  group102: "div";
-  group100: "div";
-  rectangle39: "div";
-  rectangle40: "div";
-  group91: "div";
-  group89: "div";
-  rectangle47: "div";
-  group72: "div";
-  rectangle48: "div";
-  group101: "div";
-  rectangle42: "div";
-  rectangle43: "div";
-  group92: "div";
-  group93: "div";
-  rectangle50: "div";
-  group73: "div";
-  rectangle51: "div";
-  group1000000793: "div";
-  group167: "div";
-  group165: "div";
-  rectangle92: "div";
-  group164: "div";
-  rectangle93: "div";
-  group166: "div";
-  rectangle94: "div";
-  group168: "div";
-  rectangle95: "div";
-  growthly1: "div";
-  navigation: "div";
-  group18: "div";
-  group136: "div";
-  navItem: "div";
-  navItem2: "div";
-  navItem3: "div";
-  navItem4: "div";
-  group17: "div";
-  navItem5: "div";
-  rectangle17: "div";
+  figmaPaste: "div";
+  stilu10Pt100: "div";
+  group2: "div";
+  group4: "div";
+  group5: "div";
+  _: "div";
+  group6: "div";
+  group7: "div";
+  group8: "div";
+  group9: "div";
+  rectangle7: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -2269,101 +413,17 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    frame117: makeNodeComponent("frame117"),
-    group1000000796: makeNodeComponent("group1000000796"),
-    group1000000795: makeNodeComponent("group1000000795"),
-    group149: makeNodeComponent("group149"),
-    group1000000802: makeNodeComponent("group1000000802"),
-    rectangle78: makeNodeComponent("rectangle78"),
-    group148: makeNodeComponent("group148"),
-    group147: makeNodeComponent("group147"),
-    group146: makeNodeComponent("group146"),
-    group145: makeNodeComponent("group145"),
-    group144: makeNodeComponent("group144"),
-    rectangle79: makeNodeComponent("rectangle79"),
-    group143: makeNodeComponent("group143"),
-    rectangle80: makeNodeComponent("rectangle80"),
-    group142: makeNodeComponent("group142"),
-    rectangle81: makeNodeComponent("rectangle81"),
-    group150: makeNodeComponent("group150"),
-    rectangle82: makeNodeComponent("rectangle82"),
-    group141: makeNodeComponent("group141"),
-    rectangle83: makeNodeComponent("rectangle83"),
-    group140: makeNodeComponent("group140"),
-    rectangle84: makeNodeComponent("rectangle84"),
-    group139: makeNodeComponent("group139"),
-    rectangle85: makeNodeComponent("rectangle85"),
-    group138: makeNodeComponent("group138"),
-    rectangle86: makeNodeComponent("rectangle86"),
-    group257: makeNodeComponent("group257"),
-    group253: makeNodeComponent("group253"),
-    rectangle126: makeNodeComponent("rectangle126"),
-    group249: makeNodeComponent("group249"),
-    rectangle127: makeNodeComponent("rectangle127"),
-    rectangle128: makeNodeComponent("rectangle128"),
-    group252: makeNodeComponent("group252"),
-    group251: makeNodeComponent("group251"),
-    group250: makeNodeComponent("group250"),
-    group254: makeNodeComponent("group254"),
-    rectangle129: makeNodeComponent("rectangle129"),
-    group255: makeNodeComponent("group255"),
-    rectangle130: makeNodeComponent("rectangle130"),
-    rectangle131: makeNodeComponent("rectangle131"),
-    group256: makeNodeComponent("group256"),
-    group258: makeNodeComponent("group258"),
-    group259: makeNodeComponent("group259"),
-    group1000000794: makeNodeComponent("group1000000794"),
-    illustration: makeNodeComponent("illustration"),
-    rectangle37: makeNodeComponent("rectangle37"),
-    rectangle44: makeNodeComponent("rectangle44"),
-    rectangle41: makeNodeComponent("rectangle41"),
-    img: makeNodeComponent("img"),
-    group83: makeNodeComponent("group83"),
-    group82: makeNodeComponent("group82"),
-    rectangle45: makeNodeComponent("rectangle45"),
-    group103: makeNodeComponent("group103"),
-    rectangle49: makeNodeComponent("rectangle49"),
-    group90: makeNodeComponent("group90"),
-    group71: makeNodeComponent("group71"),
-    rectangle46: makeNodeComponent("rectangle46"),
-    group102: makeNodeComponent("group102"),
-    group100: makeNodeComponent("group100"),
-    rectangle39: makeNodeComponent("rectangle39"),
-    rectangle40: makeNodeComponent("rectangle40"),
-    group91: makeNodeComponent("group91"),
-    group89: makeNodeComponent("group89"),
-    rectangle47: makeNodeComponent("rectangle47"),
-    group72: makeNodeComponent("group72"),
-    rectangle48: makeNodeComponent("rectangle48"),
-    group101: makeNodeComponent("group101"),
-    rectangle42: makeNodeComponent("rectangle42"),
-    rectangle43: makeNodeComponent("rectangle43"),
-    group92: makeNodeComponent("group92"),
-    group93: makeNodeComponent("group93"),
-    rectangle50: makeNodeComponent("rectangle50"),
-    group73: makeNodeComponent("group73"),
-    rectangle51: makeNodeComponent("rectangle51"),
-    group1000000793: makeNodeComponent("group1000000793"),
-    group167: makeNodeComponent("group167"),
-    group165: makeNodeComponent("group165"),
-    rectangle92: makeNodeComponent("rectangle92"),
-    group164: makeNodeComponent("group164"),
-    rectangle93: makeNodeComponent("rectangle93"),
-    group166: makeNodeComponent("group166"),
-    rectangle94: makeNodeComponent("rectangle94"),
-    group168: makeNodeComponent("group168"),
-    rectangle95: makeNodeComponent("rectangle95"),
-    growthly1: makeNodeComponent("growthly1"),
-    navigation: makeNodeComponent("navigation"),
-    group18: makeNodeComponent("group18"),
-    group136: makeNodeComponent("group136"),
-    navItem: makeNodeComponent("navItem"),
-    navItem2: makeNodeComponent("navItem2"),
-    navItem3: makeNodeComponent("navItem3"),
-    navItem4: makeNodeComponent("navItem4"),
-    group17: makeNodeComponent("group17"),
-    navItem5: makeNodeComponent("navItem5"),
-    rectangle17: makeNodeComponent("rectangle17"),
+    figmaPaste: makeNodeComponent("figmaPaste"),
+    stilu10Pt100: makeNodeComponent("stilu10Pt100"),
+    group2: makeNodeComponent("group2"),
+    group4: makeNodeComponent("group4"),
+    group5: makeNodeComponent("group5"),
+    _: makeNodeComponent("_"),
+    group6: makeNodeComponent("group6"),
+    group7: makeNodeComponent("group7"),
+    group8: makeNodeComponent("group8"),
+    group9: makeNodeComponent("group9"),
+    rectangle7: makeNodeComponent("rectangle7"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

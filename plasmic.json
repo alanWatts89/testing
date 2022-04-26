@@ -24,7 +24,7 @@
     {
       "projectId": "46HRUmKiZfZWKqbQxfEozQ",
       "projectApiToken": "q9mnRTnewnfhh3yGYveblg3HbweaQyvHY8KHJynKvjuJlLTee868BntMgZX52Ob155Bo2NoydRX49MGCzkwQ",
-      "projectName": "Blank project",
+      "projectName": "JD Websi",
       "version": "latest",
       "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
       "components": [
@@ -187,6 +187,21 @@
           "id": "nBTrUwLUlRD",
           "name": "Vector3Icon",
           "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Vector3.tsx"
+        },
+        {
+          "id": "wmZKUJnvSn",
+          "name": "Rectangle1Icon",
+          "moduleFilePath": "plasmic/jd_websi/icons/PlasmicIcon__Rectangle1.tsx"
+        },
+        {
+          "id": "_uGP_2Uqg5",
+          "name": "Xmlid4StrokeIcon",
+          "moduleFilePath": "plasmic/jd_websi/icons/PlasmicIcon__Xmlid4Stroke.tsx"
+        },
+        {
+          "id": "7HhSlfyiyN",
+          "name": "Group1Icon",
+          "moduleFilePath": "plasmic/jd_websi/icons/PlasmicIcon__Group1.tsx"
         }
       ],
       "images": [
@@ -229,6 +244,16 @@
           "id": "LRsam8HJ8p8",
           "name": "Group 87",
           "filePath": "../public/plasmic/blank_project/images/group87.svg"
+        },
+        {
+          "id": "3_beDc46B",
+          "name": "2022-01-31 17_56_21-Be your natural female spokesperson by Emiliedigital _ Fiverr.png",
+          "filePath": "../public/plasmic/jd_websi/images/_20220131175621BeYourNaturalFemaleSpokespersonByEmiliedigitalFiverrpng.png"
+        },
+        {
+          "id": "qei6eSUse",
+          "name": "2022-01-31 17_56_21-Be your natural female spokesperson by Emiliedigital _ Fiverr.png 2",
+          "filePath": "../public/plasmic/jd_websi/images/_20220131175621BeYourNaturalFemaleSpokespersonByEmiliedigitalFiverrpng2.png"
         }
       ],
       "indirect": false,
